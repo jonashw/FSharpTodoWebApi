@@ -1,0 +1,5 @@
+﻿#r @"..\TodoDomain\bin\Debug\TodoDomain.dll"
+#r @"System.dll"
+#r @"System.Core.dll"
+#r @"System.Numerics.dll"
+#load @"TodoRepository.fs"

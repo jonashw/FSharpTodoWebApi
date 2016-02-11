@@ -22,3 +22,6 @@ type TodoController() =
 
     [<HttpGet>]
     member x.MarkDone(id: int) = svc.MarkDone(id)
+
+    [<HttpGet>]
+    member x.Relabel(id: int, label: string) = svc.ReLabel(id, label)

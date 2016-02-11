@@ -3,4 +3,4 @@ open TodoDomain
 open TodoInfrastructure
 
 type Resolver = 
-    static member GetService() = new TodoService(new TodoRepository())
+    static member GetService() : TodoService = new TodoService(new TodoRepository())
